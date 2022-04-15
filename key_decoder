@@ -42,7 +42,8 @@ def pyg_keydecoder(key, shift):
         1073742049: "shift",
         1073742048: "control",
         1073741881: "capslock",
-        9: "tab"
+        9: "tab",
+        32 : " "
     }
     if key in keycode.keys():
         global is_shift
